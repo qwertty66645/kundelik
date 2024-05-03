@@ -1,0 +1,149 @@
+main {
+  padding: 15px 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.student-name {
+  color: var(--type-second);
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.daily {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.day {
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.day-off {
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.day-title {
+  color: var(--type);
+}
+
+.day-container {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--bg);
+  border: solid 1px var(--border);
+}
+
+.subject {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  background-color: white;
+  padding: 5px 10px;
+  border-top: solid 1px var(--border);
+  border-bottom: solid 1px var(--border);
+  transition: all 0.1s ease;
+}
+
+.subject:hover {
+  background-color: var(--bg-hover);
+}
+
+.subject-left {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.subject-name {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.subject-number {
+  color: var(--type);
+}
+
+.subject-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  background-color: var(--primary);
+  border-radius: 100%;
+}
+
+.homework {
+  color: var(--secondary);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.overall-table-header {
+  font-size: 22px;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--border);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 5px 4px;
+}
+
+tr {
+  transition: all 0.1s ease;
+}
+
+tr:hover {
+  background-color: var(--bg-hover);
+}
+
+th {
+  background-color: var(--bg);
+}
+
+.quarter-table-id {
+  text-align: center;
+}
+
+.quarter-table-grades-green {
+  padding: 0 3px;
+  font-size: 14px;
+  color: white;
+  background-color: var(--table-green);
+}
+
+.quarter-table-grades-orange {
+  padding: 0 3px;
+  font-size: 14px;
+  color: white;
+  background-color: var(--table-orange);
+}
+
+.tac {
+  text-align: center;
+}

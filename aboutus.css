@@ -1,0 +1,52 @@
+body {
+  background-color: whitesmoke;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  padding: 20px 30px 60px;
+  border: solid 1px var(--border);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.title {
+  color: var(--type-blue);
+  font-weight: 500;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.ul-title {
+  color: var(--type-blue);
+  font-weight: 500;
+}
+
+p {
+  font-size: 17px;
+}
+
+.list {
+  list-style-type: disc;
+  font-size: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 23px;
+}
+
+.list-item::marker {
+  color: var(--type);
+}
